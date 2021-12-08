@@ -2,7 +2,7 @@
 A theoretical model of the upwelling system on western coast of the United States. The model incorporates a Cell Flux Model of Phytoplankton into a basic physical model to illustrate the nutrient distribution in phytoplankton and the surrounding surface waters.
 
 
-There are two different models available in this repository: Upwelling_Project_noCFM and Upwelling_Project_with-CFM. Both models contain representations for upwelling of nutrients using advection equations. The output provides nutrient concentrations of nitrate and phosphate in the surface waters and phytoplankton. The model resolves nutrient concentrations for the temporal scale of one year and spatial scale of 400 km moving away from the west coast. 
+There are two different models available in this repository: Upwelling_Project_noCFM and Upwelling_Project_with-CFM-good. Both models contain representations for upwelling of nutrients using advection equations. The output provides nutrient concentrations of nitrate and phosphate in the surface waters and phytoplankton. The model resolves nutrient concentrations for the temporal scale of one year and spatial scale of 400 km moving away from the west coast. The CFM model requires the use of two python modules: Solver 2D and Solver 3D also included in this repository. 
 
 Upwelling_Project_noCFM provides a theoretical nutrient distribution in phytoplankton and surface waters without the use of the Cell Flux Model. This provides a very basic demonstration of theoretical interactions between phytoplankton and surrounding surface waters. 
 
