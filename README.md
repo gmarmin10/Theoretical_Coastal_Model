@@ -11,11 +11,19 @@ Upwelling_Project_with-CFM provides a theoretical nutrient distribution in phyto
 Parameters to be changed by user if desired:
 
 nyr: This is the number of years to simulate. 
+
 Nutrients in surface waters: These can be changed if the user has data to supply this information 
+
   Pnut: Phosphate concentration in surface waters
+  
   Pnut_i:Inital surface water phosphate concentration at the coastal boundary
+  
   Nnut: Nitrate concentration in surface waters
+  
   Nnut_i: Inital surface water nitrate concentration at the coastal boundary
+  
 Kn: half-saturation constant for Nnut- This can be changed if the phytoplankton community is dominated by a specific species and the user wants to use this for that species. 
+
 Kp:half-saturation constant for Pnut- This can be changed if the phytoplankton community is dominated by a specific species and the user wants to use this for that species. 
+
 U0: wind forcing velocity in meters/second- If better data is available, then can be substituted in. 
